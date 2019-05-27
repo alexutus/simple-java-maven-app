@@ -16,7 +16,7 @@ pipeline {
                 sh 'echo "Alex"'
             }
         }
-	tage('Alex_1') {
+	stage('Alex_1') {
             steps {
                 sh 'echo "Alex!"'
             }
