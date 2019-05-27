@@ -16,7 +16,11 @@ pipeline {
                 sh 'echo "Alex"'
             }
         }
-
+	tage('Alex_1') {
+            steps {
+                sh 'echo "Alex!"'
+            }
+        }
         stage('Test') { 
             steps {
                 sh 'mvn test' 
